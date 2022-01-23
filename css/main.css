@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------Utility Classes----------------- */
+.btn-text-color {
+  color: #3f87f5;
+}
+
+/* ------------------Header Section-------------------- */
+.header {
+  height: 75px;
+}
+
+/* ----------------Image Slider Section----------------- */
+.single-image img {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.55) 21.92%,
+    rgba(0, 0, 0, 0.418) 160.04%,
+    rgba(0, 0, 0, 0.121) 160.06%
+  );
+
+  border-radius: 0px 0px 5px 5px;
+  object-fit: cover;
+  height: 75vh;
+}
+
+/* --------------Frequently Asked Question Section--------------- */
+.faq-text-color {
+  color: #0d0925;
+}
+
+/* --------------------Footer Section----------------- */
+.footer {
+  background: #0b0d17;
+  height: 280px;
+}
+
+.footer-container p, .footer-container h4{
+  color: #D9DBE1;
+}
+
+/* ----------------Responsiveness---------------- */
+@media (max-width: 768px) {
+  .single-image img {
+    height: calc(100vh - 75px);
+    object-fit: cover;
+  }
+
+  .single-image h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  a.nav-font-size {
+    font-size: 68px;
+  }
+}
