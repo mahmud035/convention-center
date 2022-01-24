@@ -26,7 +26,6 @@ h4 {
 .package-btn-background {
   background: #fde8f5;
   font-family: Roboto;
-  /* font-size: 15px; */
   line-height: 18px;
   color: #3f87f5;
 }
@@ -91,8 +90,29 @@ h4 {
   color: #5243c2;
 }
 
-.check-circle-background{
+.check-circle-background {
   color: #edecf9;
+}
+
+/* -----------------Our Event Services----------------- */
+.event-background {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.event-background:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.event-background img {
+  border-radius: 15px;
+}
+
+.event-btn-background {
+  background: #fbd0ea;
+  color: #5596f6;
 }
 
 /* --------------------Footer Section----------------- */
