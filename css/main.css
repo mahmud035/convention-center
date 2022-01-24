@@ -66,7 +66,8 @@ h4 {
 }
 
 /* --------------Frequently Asked Question Section--------------- */
-.faq-text-color {
+.faq-text-color,
+.package-heading-color {
   color: #0d0925;
 }
 
