@@ -37,9 +37,23 @@ h2 {
   height: 75vh;
 }
 
+/* -----------------Our Package Section--------------------  */
+
 /* --------------Frequently Asked Question Section--------------- */
 .faq-text-color {
   color: #0d0925;
+}
+
+.faq-image img {
+  background: #c4c4c4;
+  border-radius: 5px;
+}
+
+/* --------------------Our Package Section----------------- */
+.fa-chevron-circle-right {
+ 
+  
+  
 }
 
 /* --------------------Footer Section----------------- */
@@ -48,8 +62,9 @@ h2 {
   height: 280px;
 }
 
-.footer-container p, .footer-container h4{
-  color: #D9DBE1;
+.footer-container p,
+.footer-container h4 {
+  color: #d9dbe1;
 }
 
 /* ----------------Responsiveness---------------- */
