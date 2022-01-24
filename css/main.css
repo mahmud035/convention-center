@@ -77,8 +77,22 @@ h4 {
 }
 
 /* --------------------Our Package Section----------------- */
+.our-package-container {
+  padding: 5rem 0 5rem;
+}
+
+.package-plan-background {
+  background-color: #9ad0ec;
+  border-radius: 34px;
+  offset: 0px, 42px rgba(63, 135, 245, 0.25);
+}
+
 .fa-check-circle {
   color: #5243c2;
+}
+
+.check-circle-background{
+  color: #edecf9;
 }
 
 /* --------------------Footer Section----------------- */
