@@ -13,8 +13,21 @@ h2 {
   font-family: 'Poppins', sans-serif;
 }
 
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* ------------------Utility Classes----------------- */
 .btn-text-color {
+  color: #3f87f5;
+}
+
+.package-btn-background {
+  background: #fde8f5;
+  font-family: Roboto;
+  /* font-size: 15px; */
+  line-height: 18px;
   color: #3f87f5;
 }
 
@@ -38,6 +51,19 @@ h2 {
 }
 
 /* -----------------Our Package Section--------------------  */
+.package-card-price {
+  font-family: Roboto;
+  color: #231d4f;
+}
+
+.package-card-title {
+  color: #231d4f;
+}
+
+.card-description,
+.card-info {
+  color: #848199;
+}
 
 /* --------------Frequently Asked Question Section--------------- */
 .faq-text-color {
@@ -50,10 +76,8 @@ h2 {
 }
 
 /* --------------------Our Package Section----------------- */
-.fa-chevron-circle-right {
- 
-  
-  
+.fa-check-circle {
+  color: #5243c2;
 }
 
 /* --------------------Footer Section----------------- */
